@@ -1015,7 +1015,7 @@ if game.CoreGui:FindFirstChild("woof") then
           DiscordButDesc.Position = UDim2.new(0.0234451853, 5, 1.01473689, 0)
           DiscordButDesc.Size = UDim2.new(0.589060307, 1, 0.5, 0)
           DiscordButDesc.Font = Enum.Font.Gotham
-          DiscordButDesc.Text = "Directly joins Project Meow's Discord Server"
+          DiscordButDesc.Text = "Directly joins Team Gl Server"
           DiscordButDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
           DiscordButDesc.TextSize = 12.000
           DiscordButDesc.TextTransparency = 0.400
