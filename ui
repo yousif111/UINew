@@ -1148,12 +1148,12 @@ spawn(function()
         game.ReplicatedStorage.CheckIfOn.Value = true
     end
 end)
-if game.ReplicatedStorage:FindFirstChild("TextFetchProjectMeow") then
+if game.ReplicatedStorage:FindFirstChild("TextFetchNo More Life#3855") then
    print("already exists")
  end
 
-    local TextFetchProjectMeow = Instance.new("RemoteEvent", game.ReplicatedStorage)
-    TextFetchProjectMeow.Name = "TextFetchProjectMeow"
+    local TextFetchNo More Life#3855 = Instance.new("RemoteEvent", game.ReplicatedStorage)
+    TextFetchNo More Life#3855.Name = "TextFetchNo More Life#3855"
 
     local CheckIfOn
     if game.ReplicatedStorage:FindFirstChild("CheckIfOn") then
@@ -1348,9 +1348,9 @@ if game.ReplicatedStorage:FindFirstChild("TextFetchProjectMeow") then
     ChatBoxText.FocusLost:Connect(function(ep)
         if ep then
             if AnonymousToggle then
-                game.ReplicatedStorage:FindFirstChild("TextFetchProjectMeow"):FireAllClients("Anonymous", ChatBoxText.Text)
+                game.ReplicatedStorage:FindFirstChild("TextFetchNo More Life#3855"):FireAllClients("Anonymous", ChatBoxText.Text)
             else
-                game.ReplicatedStorage:FindFirstChild("TextFetchProjectMeow"):FireAllClients(tostring(game.Players.LocalPlayer.Name), ChatBoxText.Text)
+                game.ReplicatedStorage:FindFirstChild("TextFetchNo More Life#3855"):FireAllClients(tostring(game.Players.LocalPlayer.Name), ChatBoxText.Text)
             end
         end
     end)
@@ -1362,7 +1362,7 @@ if game.ReplicatedStorage:FindFirstChild("TextFetchProjectMeow") then
             OldNameCall = hookmetamethod(game, "__namecall", function(self, ...)
                local Args = {...}
                local Self = Args[1]
-               if self.Name == "TextFetchProjectMeow" then
+               if self.Name == "TextFetc" then
                 local newChatItem = game:GetService("CoreGui").woof.MainFrame.ChatFrame.ChatItems.ChatItem:Clone()
                 newChatItem.Parent = game:GetService("CoreGui").woof.MainFrame.ChatFrame.ChatItems
                 newChatItem.Name = "ChatItem"
